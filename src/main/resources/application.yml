@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: movie-api-db
+      uri: mongodb+srv://shivank-agg:ShivanK1054@cluster0.ovkvncy.mongodb.net/movie-api-db
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
